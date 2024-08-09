@@ -2,6 +2,10 @@
   "name": "gpt4-playground",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "yarn": "~1.22",
+    "node": "~20.12"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
