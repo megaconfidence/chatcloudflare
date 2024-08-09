@@ -2,3 +2,7 @@ name = "chatcloudflare"
 compatibility_date = "2024-08-06"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
+
+[vars]
+NODE_VERSION = "20.12.2"
+YARN_VERSION = "1.22.22"
