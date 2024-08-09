@@ -14,7 +14,7 @@ export default function ChatSidebar({}: Props) {
   const { clearConversations } = useCloudflare();
 
   return (
-    <div className="dark left-0 top-0 h-full max-h-screen flex-col bg-gray-900 text-primary md:fixed md:flex md:w-[260px]">
+    <div className="dark left-0 top-0 h-full max-h-screen flex-col bg-orange-500 text-primary md:fixed md:flex md:w-[260px]">
       <div className="flex h-full flex-col items-stretch p-2">
         <Link
           href="/"
